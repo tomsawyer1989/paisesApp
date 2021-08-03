@@ -1,5 +1,6 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
+import { RouterModule } from "@angular/router";
 import { FormsModule } from "@angular/forms";
 
 import { PorCapitalComponent } from "./pages/por-capital/por-capital.component";
@@ -22,6 +23,7 @@ import { VerPaisComponent } from "./pages/ver-pais/ver-pais.component";
     ],
     imports: [
         CommonModule,
+        RouterModule,
         FormsModule
     ],
 })
