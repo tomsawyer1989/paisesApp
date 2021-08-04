@@ -26,4 +26,10 @@ export class PorPaisComponent {
             this.paises = [];
         });
     }
+
+    sugerencias (termino: string) {
+        this.hayError = false;
+        
+        // crear sugerencias
+    }
 }
